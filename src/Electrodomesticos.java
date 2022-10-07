@@ -24,11 +24,11 @@ public class Electrodomesticos {
 	private static final int PESO_BASE = 5;
 	private static final int PRECIO_BASE = 100;
 
-	private int precioBase;
+	private double precioBase;
 	private String color;
 	private String consumoEnergetico;
 	private int peso;
-	private int PrecioFinal;
+	private double PrecioFinal;
 
 	//primer constructor por defecto
 	
@@ -115,8 +115,8 @@ public class Electrodomesticos {
 	}
 	
 	
-	public int PrecioFinal() {
-		int aux = PrecioFinal;
+	public double PrecioFinal() {
+		double aux = PrecioFinal;
 		
 		aux += RELACION_PRECIO_CONSUMO.get(consumoEnergetico);
 		

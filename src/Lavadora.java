@@ -30,8 +30,8 @@ public class Lavadora extends Electrodomesticos {
 
 
 	@Override
-	public int PrecioFinal() {
-		int aux = super.PrecioFinal();
+	public double PrecioFinal() {
+		double aux = super.PrecioFinal();
 		
 		if(carga >= 50) {
 			aux += 50;
