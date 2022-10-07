@@ -116,7 +116,7 @@ public class Electrodomesticos {
 	
 	
 	public double PrecioFinal() {
-		double aux = PrecioFinal;
+		double aux = precioBase;
 		
 		aux += RELACION_PRECIO_CONSUMO.get(consumoEnergetico);
 		
