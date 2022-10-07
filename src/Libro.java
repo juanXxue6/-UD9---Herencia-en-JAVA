@@ -1,15 +1,15 @@
 
 public class Libro {
 
-	private int isbn;
+	private String isbn;
 	private String titulo;
 	private String autor;
 	private int numeroPaginas;
 
 	
-	public Libro(int isbn, String titulo, String autor, int numeroPaginas) {
+	public Libro(String isbn, String titulo, String autor, int numeroPaginas) {
 		
-		ComprobarISBN(numeroPaginas);
+		//ComprobarISBN(numeroPaginas);
 		
 		this.isbn = isbn;
 		this.titulo = titulo;
@@ -17,11 +17,11 @@ public class Libro {
 		this.numeroPaginas = numeroPaginas;
 	}
 
-	public int GetIsbn() {
+	public String GetIsbn() {
 		return isbn;
 	}
 	
-	public void SetIsbn(int isbn) {
+	public void SetIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 	
@@ -62,7 +62,7 @@ public class Libro {
 	}
 	
 	
-	private void ComprobarISBN(int isbn) {
+	/*private void ComprobarISBN(long isbn) {
 		
 		if(String.valueOf(isbn).length() != 10 && String.valueOf(isbn).length() != 13) {
 			
@@ -70,7 +70,7 @@ public class Libro {
 		}
 		
 		
-	}
+	}*/
 	
 	
 	
