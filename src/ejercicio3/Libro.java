@@ -1,3 +1,4 @@
+package ejercicio3;
 
 public class Libro {
 
@@ -61,8 +62,8 @@ public class Libro {
 				" creado por el " + autor + " tiene " + numeroPaginas);
 	}
 	
-	
-	/*private void ComprobarISBN(long isbn) {
+	/*
+	private void ComprobarISBN(long isbn) {
 		
 		if(String.valueOf(isbn).length() != 10 && String.valueOf(isbn).length() != 13) {
 			
@@ -70,9 +71,9 @@ public class Libro {
 		}
 		
 		
-	}*/
+	}
 	
-	
+	*/
 	
 
 }
