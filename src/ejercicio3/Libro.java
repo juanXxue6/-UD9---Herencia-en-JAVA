@@ -56,10 +56,17 @@ public class Libro {
 		this.numeroPaginas = numeroPaginas;
 	}
 	
-	public void ToString() {
+	/*@Override
+	public String toString() {
+		return "Libro [isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", numeroPaginas=" + numeroPaginas
+				+ "]";
+	}
+	*/
+	public String toString() {
 		
-		System.out.println("El " + titulo + " con " + isbn +
-				" creado por el " + autor + " tiene " + numeroPaginas);
+		
+		return "El " + titulo + " con " + isbn +
+				" creado por el " + autor + " tiene " + numeroPaginas;
 	}
 	
 	/*
